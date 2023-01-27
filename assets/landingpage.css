@@ -1,0 +1,218 @@
+.landing_page_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.landing_page_left {
+  border: 2px solid black;
+}
+
+.settings_span_ai {
+  color: #4F8FA2;
+  padding: 0 10px;
+  font-weight: bold;
+  top: -10px;
+  position: relative;
+}
+
+
+#custom_Layer_1_ai{
+  fill: #4F8FA2;
+}
+
+.landing_page_right {
+  -webkit-box-flex: 1;
+  flex: 1 0 50%;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-radius: 31px;
+  padding: 15px;
+  margin: 15px;
+  background-color: #FFFFFF;
+  border-color: #e3afaf;
+}
+
+.guideline_settings_ai{
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-box-align: center;
+align-items: center;
+font-size: 28px;
+padding-bottom: 10px;
+}
+.right_content_container{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  margin: 0 -10px;
+}
+.settings_buttons_container_ai{
+-webkit-box-flex: 1;
+    flex: 1 0 50%;
+    padding: 0 10px;
+  }
+.size_unit_label_ai .paper_label_ai
+.orient_main_label{
+    display: block;
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1;
+}
+
+.custom_radio_buttons_wrapper_one{
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+/* .size_radio_button_ai{
+  position: absolute;
+} */
+/* .stv-radio-button {
+  position: absolute;
+ 
+} */
+.size_radio_button_ai + label:last-child {
+  margin-right: 0;
+}
+.size_radio_button_ai + label {
+  -webkit-box-flex: 1;
+  flex: 1 1 40%;
+  overflow: hidden;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em 0.6em;
+  cursor: pointer;
+  border: 1px solid #F2F2F2;
+  margin-right: 10px;
+  color: #000;
+  background-color: #F2F2F2;
+  border-radius: 100px;
+  font-size: 15px;
+}
+.input-buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: -7px;
+}
+.input-buttons > label {
+  -webkit-box-flex: 1;
+  flex: 1 0 50%;
+  padding: 0.5em 0.9em;
+  background: #4F8FA2;
+  color: #000;
+  font-size: 15px;
+  height: 48px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.input-buttons .input-wrapper-unit {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 0;
+  flex: 0 1 50%;
+}
+.input-buttons .input-wrapper-unit input {
+  display: inline-block;
+  text-align: right;
+  font-size: 15px;
+  border: none;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 0.5em 0.2em 0.5em 1em;
+  background: #fff;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  width: 60px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+}
+.input-buttons .input-wrapper-unit .unit {
+  height: 48px;
+  width: 40px;
+  text-align: right;
+  display: inline-block;
+  align-self: center;
+  background: #fff;
+  font-size: 14px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  display: -webkit-box;
+  display: flex;
+  padding-right: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.gg-setting.range .range-label-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.gg-setting.range .range-label-wrapper label {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+.gg-setting.range .range-label-wrapper input {
+  width: 100px;
+  text-align: right;
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  color: #000;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.gg-setting.range input[type=range] {
+  width: 90vh;
+  background: transparent;
+}
