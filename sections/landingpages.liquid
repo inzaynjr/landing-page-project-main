@@ -21,7 +21,7 @@
       </h2>
       <div class="right_content_container">
         <div class="settings_buttons_container_ai">
-{% comment %} =============First Input SIZE UNIT============== {% endcomment %}
+          {% comment %} =============First Input SIZE UNIT============== {% endcomment %}
 
           <div class="radio_buttons_sizeunit_ai">
             <label class="size_unit_label_ai">Size Unit</label>
@@ -32,7 +32,7 @@
               <label for="unitin" class="in_unit_label_ai">Inches</label>
             </div>
           </div>
-{% comment %} =============second Input PAPER SIZE============== {% endcomment %}
+          {% comment %} =============second Input PAPER SIZE============== {% endcomment %}
 
           <div class="paper_setting_radio_buttons_ai">
             <label class="paper_label_ai">Paper Size</label>
@@ -43,12 +43,12 @@
               <label for="sizea3" class="label_a3_ai">A3</label>
             </div>
           </div>
-{% comment %} =============third Input oriantation============== {% endcomment %}
+          {% comment %} =============third Input oriantation============== {% endcomment %}
           <div class="Orient_radio_buttons">
             <label class="orient_main_label">Orientation</label>
             <div class="Orient_radio_buttons_wrapper">
-              <input type="radio" class="Orient_portrait_radio_button" name="orientation" value="portrait" id="orientationportrait"
-                checked="">
+              <input type="radio" class="Orient_portrait_radio_button" name="orientation" value="portrait"
+                id="orientationportrait" checked="">
               <label for="orientationportrait" class="Orient_portrait_label">Portrait</label>
               <input type="radio" class="Orient_landscape_radio_button" name="orientation" value="landscape"
                 id="orientationlandscape">
@@ -56,47 +56,44 @@
             </div>
           </div>
         </div>
-       {% comment %}
-        <div class="guideline-settings-col">
+        <div class="information_guideline_container_ai">
 
-          <div class="gg-setting input-buttons">
-            <label for="ascenderinput">Ascender</label>
-            <span class="input-wrapper-unit"><input type="number" id="ascenderinput" name="ascender" size="2" value="5"
-                step="0.01"><span class="unit">mm</span></span>
+          <div class="info_container_settings_ai custom_input_buttons_cs">&nbsp;&nbsp;
+            <label for="ascenderinput" class="Ascender_label_cs">Ascender</label>&nbsp;&nbsp;
+            <span class="Ascender_input_wrapper_unit_container"><input type="number" id="ascenderinput" name="ascender"
+                size="2" value="5" step="0.01" class="Ascender_input_number"><span id="Ascender_label_mm"
+                class="unit">mm</span></span>
           </div>
-
-          <div class="gg-setting input-buttons">
-            <label for="bodyinput">Body</label>
-            <span class="input-wrapper-unit"><input type="number" id="bodyinput" name="body" size="2" value="5"
-                step="0.01"><span class="unit">mm</span></span>
+          <div class="body_settings_cs body_input_buttons">&nbsp;&nbsp;
+            <label for="bodyinput" class="body_label_ai">Body</label>&nbsp;&nbsp;
+            <span class="body_input_wrapper_unit"><input type="number" id="bodyinput" name="body" size="2" value="5"
+                step="0.01" class="body_input_value_cs"><span id="body_span_label_unit_mm" class="unit">mm</span></span>
           </div>
-
-          <div class="gg-setting input-buttons">
-            <label for="descenderinput">Descender</label>
-            <span class="input-wrapper-unit"><input type="number" id="descenderinput" name="descender" size="2"
-                value="5" step="0.01"><span class="unit">mm</span></span>
+          <div class="descender_setting_ai descender_input_buttons">&nbsp;&nbsp;
+            <label for="descenderinput" class="descender_label_ai">Descender</label>&nbsp;&nbsp;
+            <span class="descender_input_wrapper_unit"><input type="number" class="descender_input_value_field"
+                id="descenderinput" name="descender" size="2" value="5" step="0.01"><span
+                id="descender_label_cs_ai_unit" class="unit">mm</span></span>
           </div>
-
-          <div class="gg-setting input-buttons">
-            <label for="interlinearspaceinput">Interlinear Space</label>
-            <span class="input-wrapper-unit"><input type="number" id="interlinearspaceinput" name="interlinearspace"
-                size="2" value="10" step="0.01"><span class="unit">mm</span></span>
+          <div class="Interlinear_setting_ai Interlinear_input_buttons">&nbsp;&nbsp;
+            <label for="interlinearspaceinput" class="Interlinear_label_ai">Interlinear Space</label>&nbsp;&nbsp;
+            <span class="Interlinear_input_wrapper_unit"><input type="number" class="Interlinear_input_field_ai"
+                id="interlinearspaceinput" name="interlinearspace" size="2" value="10" step="0.01"><span
+                id="Interlinear_label_span_ai" class="unit">mm</span></span>
           </div>
         </div>
-        <div class="guideline-settings-row">
-
-          <div class="gg-setting range">
-            <span class="range-label-wrapper"><label for="slantLines">Slant Lines</label><input type="text"
-                value="90 degrees" name="angleDisplay" for="angle"></span>
-            <input type="range" name="angle" id="slantLines" min="25" max="90" value="90" step="5">
-
-
+        <div class="slider_transform_settings_row">
+          <div class="slider_settings_range_container xrange">&nbsp;&nbsp;
+            <span class="x_range_label_wrapper"><label for="slantLines" class="xslant_lines_label">Slant Lines</label>
+              <input class="x_input_range_degree_text" type="text" value="90 degrees" name="angleDisplay"
+                for="angle"></span>
+            <input class="xe_input_range_angle_slide" type="range" name="angle" id="slantLines" min="25" max="90"
+              value="90" step="5">
           </div>
-        </div> {% endcomment %}
+        </div>
+        {% comment %} <h1>i am landing_page_right</h1> {% endcomment %}
       </div>
-      <h1>i am landing_page_right</h1>
     </div>
-  </div>
 </custom-page-customization>
 
 
